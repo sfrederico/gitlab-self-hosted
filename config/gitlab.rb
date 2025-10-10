@@ -1,5 +1,9 @@
 
-external_url 'http://134.199.207.60'
+external_url 'https://gitlab.sfrederico.dev'
+
+letsencrypt['enable'] = true
+letsencrypt['contact_emails'] = ['sfrederico@ucs.br']
+letsencrypt['auto_renew'] = true
 
 puma['worker_processes'] = 0
 
